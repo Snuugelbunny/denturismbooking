@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/Snuugelbunny/denturismbooking/issues"
   },
-  "homepage": "https://github.com/Snuugelbunny/denturismbooking#readme"
+  "homepage": "https://github.com/Snuugelbunny/denturismbooking#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^9.0.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
